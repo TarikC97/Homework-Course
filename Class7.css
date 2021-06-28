@@ -1,0 +1,56 @@
+.klasa{
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    margin-left: 40px;
+}
+.klasa2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+.klasa3{
+    margin-top: 20px;
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+}
+.klasa3:hover{
+ visibility: hidden;
+}
+.klasa4{
+    font-size: 10px;
+    color:black;
+}
+.klasa5{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.klasa6{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.klasa7{
+    float: right;
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+p{
+    margin-left: 20px;
+    color:blue;   
+}
+h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

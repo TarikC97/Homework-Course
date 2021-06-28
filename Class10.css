@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+.main{
+   height: 700px;
+   width: 95%;
+   background-color:rgba(128, 128, 128, 0.767);
+   border: 1px solid black;
+   margin-left: 35px;
+   display: flex;
+   justify-content: space-between;
+}
+.table1{
+    height: 680px;
+    width: 33%;
+    background-color: whitesmoke;
+    margin-left: 5px;
+    border-style:solid;
+    border: 5px solid black;
+    border-top-color: green;
+    border-bottom-color: green;
+    margin-top: 5px;
+}
+.table2{
+    height: 680px;
+    width: 33%;
+    background-color: whitesmoke;
+    margin-left: 5px;
+    border-style:solid;
+    border: 5px solid black;
+    border-top-color: darkblue;
+    border-bottom-color: darkblue;
+    margin-top: 5px;
+    }
+.table3{
+        height: 680px;
+        width: 33%;
+        background-color: whitesmoke;
+        margin-left: 5px;
+        border-style:solid;
+        border: 5px solid black;
+        border-top-color:purple;
+        border-bottom-color: purple;
+        margin-top: 5px;
+        margin-right: 5px;
+}
+.h1{
+    text-align: center;
+}
+.th{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 5px solid black;
+}
+.td{
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid black;
+    font-size: 35px;
+    padding: 10px;
+    border-spacing: 10px ;
+}
+.button{
+    height: 10%;
+    width: 31%;
+    margin-top:25px;
+    background-color: white;
+}
+.button2{
+    border: 5px solid indigo;
+    height: 10%;
+    width: 31%;
+    margin-top:25px;
+    color: indigo;
+    background-color: white;
+    transition-timing-function: ease;
+}
+.button2:hover{
+    width: 100%;
+}
+@keyframes boja{
+    from{background-color: white;}
+    to{background-color: grey;}
+}
+.button:hover{
+    animation-name: boja;
+    animation-duration: 2s;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
